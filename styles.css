@@ -1,0 +1,171 @@
+        body {
+            background-color: #fffdf5;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            background: #f9f7f0 url('img/bg.gif');
+            background-position: center center;
+            border: 0 #742222 solid;
+            border-width: 0 1rem;
+            color: #543438;
+            height: 100%;
+            padding: 1rem;
+        }
+
+        .header__image img {
+            max-width: 960px;
+            width: 100%;
+        }
+        .header{
+            text-align: center;
+        }
+
+        .header__content h2 {
+            color: #463140;
+            font-family: 'Comic Sans MS', 'Chalkboard', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            margin-top: 1.2rem;
+            font-size: 1.2rem;
+        }
+
+        .header__content h1 {
+            color: #742222;
+            font-size: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header__content .heart {
+            height: 40px;
+            margin: 0 .2rem;
+            margin-bottom: 0rem;
+        }
+
+        #countdown__timer {
+            background: #FFF;
+            border: 8px groove #742222;
+            padding: .5rem 0;
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+
+        #main {
+            font-size: 1.4rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+
+        .content {
+            padding: 0 4rem;
+            max-width: 800px;
+            text-align: left;
+        }
+
+        .nav{
+            width: 100%;
+            margin: 4rem 0rem;
+        }
+        
+        .nav a{
+            font-size: 1rem;
+            color: #463140;
+            padding-left: 0rem;
+        }
+
+        .content img{
+            width: 100%;
+        }
+
+        .content p{
+            margin-left: 4rem;
+        }
+
+        #pic01{
+            float: right;
+            box-shadow: 5px 5px 5px #000000;
+        }
+
+        #pic02{
+            float: left;
+            box-shadow: 5px 5px 5px #000000;
+        }
+
+        @media all and (min-width: 768px) {
+            
+            #wrapper {
+                border-width: 0 4rem;
+            }
+            .header__content h2 {
+                color: #444;
+                font-family: 'Comic Sans MS', 'Chalkboard', cursive, sans-serif;
+                margin: 0;
+                padding: 0;
+                margin-top: 1.2rem;
+                font-size: 2rem;
+            }
+            .header__content h1 {
+                font-size: 4rem;
+                margin: 0;
+                padding: 0;
+            }
+            .countdown {
+                display: flex;
+                justify-content: center;
+            }
+            #countdown__timer {
+                font-size: 5rem;
+                padding: 1rem;
+            }
+            .nav{
+                width: 100%;
+                margin: 4rem 2rem;
+            }
+            .nav a{
+                font-size: 3.5rem;
+            }
+            .content img{
+                width: auto;
+            }
+
+            #pic01{
+                float: right;
+                transform: rotate(10deg);
+                box-shadow: 5px 5px 5px #000000;
+                margin-left: 1rem;
+                margin-bottom: 1rem;
+            }
+    
+            #pic02{
+                float: left;
+                transform: rotate(-7deg);
+                box-shadow: 5px 5px 5px #000000;
+            }
+        }
+
+        @media all and (min-width: 1024px) {
+            .header__image {
+                margin: 2rem;
+            }
+            .header__content h2 {
+                font-size: 3rem;
+            }
+            .header__content h1 {
+                font-size: 6rem;
+            }
+        }
+
+        @media all and (min-width: 1280px) {
+            .header__content h2 {
+                font-size: 4rem;
+            }
+            .header__content h1 {
+                font-size: 8rem;
+            }
+        }
+

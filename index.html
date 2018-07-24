@@ -6,123 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mima's Room</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <!-- <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
-    <script src="main.js"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <style>
-        body {
-            background-color: #764038;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        #wrapper {
-            background: #cdc5ce url('img/bg.gif');
-            background-position: center center;
-            border: 0 #764038 solid;
-            border-width: 0 1rem;
-            color: #543438;
-            height: 100%;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        .header__image img {
-            max-width: 960px;
-            width: 100%;
-        }
-
-        .header__content h2 {
-            color: #444;
-            font-family: 'Comic Sans MS', 'Chalkboard', cursive, sans-serif;
-            margin: 0;
-            padding: 0;
-            margin-top: 1.2rem;
-            font-size: 1.2rem;
-        }
-
-        .header__content h1 {
-            font-size: 2rem;
-            margin: 0;
-            padding: 0;
-        }
-
-        .header__content .heart {
-            height: 40px;
-            margin: 0 .2rem;
-            margin-bottom: 0rem;
-        }
-
-        #countdown__timer {
-            background: #FFF;
-            border: 8px groove #764038;
-            padding: .5rem 0;
-            font-size: 2rem;
-            margin: 1rem 0;
-        }
-
-        #main {
-            font-size: 1.4rem;
-            font-weight: bold;
-            display: flex;
-            justify-content: center;
-        }
-
-        .content {
-            max-width: 800px;
-        }
-
-        @media all and (min-width: 768px) {
-            #wrapper {
-                border-width: 0 4rem;
-            }
-            .header__content h2 {
-                color: #444;
-                font-family: 'Comic Sans MS', 'Chalkboard', cursive, sans-serif;
-                margin: 0;
-                padding: 0;
-                margin-top: 1.2rem;
-                font-size: 2rem;
-            }
-            .header__content h1 {
-                font-size: 4rem;
-                margin: 0;
-                padding: 0;
-            }
-            .countdown {
-                display: flex;
-                justify-content: center;
-            }
-            #countdown__timer {
-                font-size: 5rem;
-                padding: 1rem;
-            }
-        }
-
-        @media all and (min-width: 1024px) {
-            .header__image {
-                margin: 2rem;
-            }
-            .header__content h2 {
-                font-size: 3rem;
-            }
-            .header__content h1 {
-                font-size: 6rem;
-            }
-        }
-
-        @media all and (min-width: 1280px) {
-            .header__content h2 {
-                font-size: 4rem;
-            }
-            .header__content h1 {
-                font-size: 8rem;
-            }
-        }
-
-        @media all and (min-width: 768px) and (max-width: 1024px) {}
     </style>
 </head>
 
@@ -136,8 +21,7 @@
             <div class="header__content">
                 <h2>Welcome to</h2>
                 <h1>
-                    <img src="img/heart.gif" class="heart" />Mima's Room
-                    <img src="img/heart.gif" class="heart" />
+                    <img src="img/heart.gif" class="heart" />Mima's Room<img src="img/heart.gif" class="heart" />
                 </h1>
                 <p class="counter">
                     You are the
@@ -182,10 +66,64 @@
                 }, 1000);
             </script>
         </div>
+        <div class="nav">
+                <p><img src="img/fish.gif" /><a href="#diary">About Mima</a></p>
+                <p><img src="img/fish.gif" /><a href="#diary">Mima's Diary</a></p>
+                <p><img src="img/fish.gif" /><a href="https://signup.e2ma.net/signup/1879099/1746564/" onclick="window.open('https://signup.e2ma.net/signup/1879099/1746564/', 'signup', 'menubar=no, location=no, toolbar=no, scrollbars=yes, height=500'); return false;">Sign-up for Mima's Newsletter!!</a></p>
+            </div>
+        <div id="main">
+        </div>
+        <!-- main -->
+
+
+
+        <div class="header" id="diary">
+            <div class="header__image">
+            </div>
+            <div class="header__content">
+                <h1>Mima's Diary</h1>
+            </div>
+
+        </div>
         <div id="main">
             <div class="content">
+                <h3>April 17</h3>
                 <p>
-                    Help. Help. 助けて！ Help. Help. Help. 助けて！ 助けて！ Help! Help. Help! Help! 助けて！ 助けて！ 助けて! Help. Help. 助けて！ Help. Help. Help. 助けて！
+                    It was just terrible! I screwed up the choreography, AND forgot my lyrics. I feel so sorry to all my fans!
+                </p>
+                <h3>April 18</h3>
+                <p>
+                    This morning, when I got off the train left foot first, was when all the bad stuff started. I always make it a point that
+                    my right foot goes first into the train and into the bath.
+                </p>
+                <h3>April 19</h3>
+                <img src="img/pic01.png" id="pic01">
+                <p>
+                    Today was my 21st birthday. Yukiko, Rei, and the staff at the agency held a party for me. It was terrific! Coming home, I
+                    went grocery shopping at the usual store. I got mineral water and milk. THe milk just has to be Cow Brand
+                    Milk. I have to allow myself at least this much luxury. And food for my precious fish, of course.
+                </p>
+
+                <h3>May 12</h3>
+                <p>I was impressed with Eri Ochiai's performance in Double Bind. She's another person when the camera is rolling.
+                    I hope to one day be as good an actress as she is!</p>
+
+                <h3>June 19</h3>
+                <p>I don't want to do that drama anymore! The producer is a total pervert, and my role is really screwed up!
+                    Singing in front of my fans has GOT to be the best for me after all!</p>
+
+                <h3>June 22</h3>
+                <p>Today, I was still a little depressed, but receiving e-mail from all of you made me feel a little better.
+                    </p>
+
+                <h3>June 24</h3>
+
+                <p>
+                    Help me, everyone. Everyone is forcing me to do it! It's all the screenwriter's fault!
+                </p>
+
+                <p>
+                    Help! Help! 助けて！ Help. Help. Help. 助けて！ 助けて！ Help! Help. Help! Help! 助けて！ 助けて！ 助けて! Help. Help. 助けて！ Help. Help. Help. 助けて！
                     助けて！ Help! Help. Help! Help! 助けて！ 助けて！ 助けて！ Help. Help. 助けて！ Help. Help. Help. 助けて！ 助けて！ Help! Help.
                     Help! Help! 助けて！ 助けて！ 助けて！ Help. Help. 助けて！ Help. Help. Help. 助けて！ 助けて！ Help! Help. Help! Help! 助けて！
                     助けて！ 助けて！ Help. Help. 助けて！ Help. Help. Help. 助けて！ 助けて！ Help! Help. Help! Help! 助けて！ 助けて！ 助けて！ Help. Help.
@@ -193,18 +131,22 @@
                     Help. 助けて！ 助けて！ Help! Help. Help! Help! 助けて！ 助けて！ 助けて！ Help. Help. 助けて！ Help. Help. Help. 助けて！ 助けて！ Help!
                     Help. Help! Help! 助けて！ 助けて！ 助けて！ Help. Help. 助けて！ Help. Help. Help. 助けて！ 助けて！ Help! Help. Help! Help!
                     助けて！ 助けて！ 助けて！ He̸lp͠.̕ ͏͟͝Hę̴l͏̸p̸.̡͞҉ ҉助̀͟け̴͞て̸̨！̵ ̧҉H̴e̷͡l̵̀͟p̴. ̸͠Ḩ̡e̕l̡͢p̀. ̧He̴̷̕lp̴͝. ̵̛͞助̧̀͢け̛͢て̴̕！
-                    ̀́助けて̀！͞͠ ͟͡He̵l̶͢͞p͡͡!̀͝͡ ̀̕Ḩ͢ȩ҉l͞͞p͘.͜ H̸̛̛e͜lp̸̀!̴͏̨ ̷̢H̴̸͠èl̶͡p̧͜! ̨͡助̷͟け̴́て̷！҉̧ ̷̡́助́けて̶！̀͝ ̴助̶҉けて͘͝！
-                    ̶H̡͞e̡l̸͘p.͘ ͜͝H҉̛҉e͘͝l̷̨p̛.̧ ̵͞助̡け҉て！̡͡ ́͘H̴́͟e͏l͡p҉́.̶͠ ̕H̸̀e̢̧̛lp̴.͘ ҉͝H̷͏e̶l͝p̴.̴͘͝ ̵͘助͜け͢͝て҉！҉ ͢͠助け͏て͢！̸
-                    ̸̵̨H͝e̷̸l̴p!̷̶ ́H͏͝͠e̵̡l̢͝p̡.̵̢̡ ̧H͢e͘l͟p̢̡!̨̀ ̢͘H̴͏eļ͜p!̀̕ 助͢け̴͢͞て！͘͟ ̴助̀け͞て̴！͠ ̵͜助̀͢け̨͡͠て͏！̡͡ H́͝e̸͝l̵̀p̡̨͘.̸
-                    ̸̷H҉̴el҉p̢͢.̨̀ ̢助̧け҉͏て̛̕！̷̨͏ ̨̕H̵̕e̵̵l̀͜͞p̛.̶ H̡͜e̴̶͟lp͝.̀͞ ̵̕He͟l҉p̕͞.̸̧ ̷̨助̀け̶͘て̕͏！̴̸͡ ̷̡͢助̛け̴̡͝て̵͢͡！͡
-                    ̛̕̕H͡e̵̴̷lp!̶҉ ̵͘H͝e̶͘l͝͠p̵. ͟He̶͘l̸p̵͠!̢ ̀H͘e҉lṕ̧̀! ̸̧͢助͝け͟͢て͞！̢ ̷͟助҉け̨͢て͟͠！͝ ̸̢̕助͘͏けて̕͢！̶ ͡H͏e̡l̸̨̨p͠.̶̢̀
-                    ̶̷H̸̕e͡͠͏l̀͘҉p̵͢.̛ ҉͞助͞け͝҉̸て̧！ ̨͜H̨̀e̶l҉͘p̴͡.̀ ́H̶ę͏lp͝.̴̧̨ ͠He͢҉͏l͘p̀͜.͠ ̶͟助̷け̵̡て͘͡！́̕ ̴助̀̀け̵̨̢て̸！̢
-                    ́͢H̡ȩl̀p̡̕̕!͟͝͞ ̶̨H̴҉̸el̸̵̡p̛͞. ̶̧H̡͏e̛l҉p!̧͞ ͢͠H͏͠el̶͢p̡͡͞!̴ ̶助̢͞͡け̷́て̶̡！͘͟͢ ̡͟助け̷̡て̡！̢ ͟助͜͟͞けて̢̨͞！̀͟͢
-                    ̷̕͜H̢e̴̛l̡p.͡ ̴͜H̷̷ȩl̴p̡̧͠.̡͢͡ ̷̷助̡͢け̵͟て！̡͢͡ ͡Hé̛͟l̸͢͝p͟͜.̧ ̧͠͡H͝e̴̡l̡̀̕ṕ̢. ͠H̕e̛l̛p̀.҉ ́͟助͘け̸て̢！̸̸͢
-                    ̶͢助̨̛̀け҉͜て！ ̨͟H̶͜ę͠l̛͝p̨!̡ ̴̸̶H̨e̷lp͜.́̀ ̵He͏l̢p̡͠!͝ ҉̸H͝ȩl̸̨p̸!̨́ ̷̨助け̵̶͝て̕！̷́ ̵̧̀助̵け̀͘て̨！͏͘͟ ̡͟͏助̨͡け̸̛て̛́҉！̴͢
-                    ̛He̶lp̢͟͝.̸̕ ̛͜H̷̡̧e̷̢̕lp̛.͘͡ 助̸̨͡け̢́͘て！̨ H̸e̛lp̸̨̕.҉̵ H̷͜e̵lp.̀͢ ̧͏He͝lp͜.̴͜͡ ̡̧助け̵̨̛て！ ̀助̸けて̕！̵̷̕ Ḩ̸͡e̛l̢͡p̴̵̨!҉
-                    ̛̕͝H̢e͏͢l̨p.̧͢ ͞҉҉He͠lp!̷͞ ͘H̨́e͏̢l̢p!͟ ̨助けて！́͢ ̕͞助̕け̀̕て！ ́̀助̸̷け͏͡て̛！͞ ̨͢H҉e̶l͡͏҉p̀.̢ ̧̀́H̶ȩ͏͡ĺ̸p͏.̴̶͜
-                    ̢̛͞助̷け͟て̛͞͞！̢̛ H̢̨͞el̛p̷.҉ ̀͝͡Hél͘̕p͟͜.̴ ͢͠He̕͘͡l̨p̶.̵ ̢͜͢助̕͞け̛͜て̕！͢͞ ͡助͜け̧͡て̡̡！̢́͘ ̡̕H̡̡͝e̶lp͏!̛͡ ́͢H̡́é̡ļ̕p̶.͏
+                </p>
+                <img src="img/pic02.png" id="pic02">
+                <p>
+
+                    ̀́助けて̀！͞͠ ͟͡He̵l̶͢͞p͡͡!̀͝͡ ̀̕Ḩ͢ȩ҉l͞͞p͘.͜ H̸̛̛e͜lp̸̀!̴͏̨ ̷̢H̴̸͠èl̶͡p̧͜! ̨͡助̷͟け̴́て̷！҉̧ ̷̡́助́けて̶！̀͝ ̴助̶҉けて͘͝！ ̶H̡͞e̡l̸͘p.͘
+                    ͜͝H҉̛҉e͘͝l̷̨p̛.̧ ̵͞助̡け҉て！̡͡ ́͘H̴́͟e͏l͡p҉́.̶͠ ̕H̸̀e̢̧̛lp̴.͘ ҉͝H̷͏e̶l͝p̴.̴͘͝ ̵͘助͜け͢͝て҉！҉ ͢͠助け͏て͢！̸ ̸̵̨H͝e̷̸l̴p!̷̶
+                    ́H͏͝͠e̵̡l̢͝p̡.̵̢̡ ̧H͢e͘l͟p̢̡!̨̀ ̢͘H̴͏eļ͜p!̀̕ 助͢け̴͢͞て！͘͟ ̴助̀け͞て̴！͠ ̵͜助̀͢け̨͡͠て͏！̡͡ H́͝e̸͝l̵̀p̡̨͘.̸ ̸̷H҉̴el҉p̢͢.̨̀
+                    ̢助̧け҉͏て̛̕！̷̨͏ ̨̕H̵̕e̵̵l̀͜͞p̛.̶ H̡͜e̴̶͟lp͝.̀͞ ̵̕He͟l҉p̕͞.̸̧ ̷̨助̀け̶͘て̕͏！̴̸͡ ̷̡͢助̛け̴̡͝て̵͢͡！͡ ̛̕̕H͡e̵̴̷lp!̶҉
+                    ̵͘H͝e̶͘l͝͠p̵. ͟He̶͘l̸p̵͠!̢ ̀H͘e҉lṕ̧̀! ̸̧͢助͝け͟͢て͞！̢ ̷͟助҉け̨͢て͟͠！͝ ̸̢̕助͘͏けて̕͢！̶ ͡H͏e̡l̸̨̨p͠.̶̢̀ ̶̷H̸̕e͡͠͏l̀͘҉p̵͢.̛
+                    ҉͞助͞け͝҉̸て̧！ ̨͜H̨̀e̶l҉͘p̴͡.̀ ́H̶ę͏lp͝.̴̧̨ ͠He͢҉͏l͘p̀͜.͠ ̶͟助̷け̵̡て͘͡！́̕ ̴助̀̀け̵̨̢て̸！̢ ́͢H̡ȩl̀p̡̕̕!͟͝͞ ̶̨H̴҉̸el̸̵̡p̛͞.
+                    ̶̧H̡͏e̛l҉p!̧͞ ͢͠H͏͠el̶͢p̡͡͞!̴ ̶助̢͞͡け̷́て̶̡！͘͟͢ ̡͟助け̷̡て̡！̢ ͟助͜͟͞けて̢̨͞！̀͟͢ ̷̕͜H̢e̴̛l̡p.͡ ̴͜H̷̷ȩl̴p̡̧͠.̡͢͡
+                    ̷̷助̡͢け̵͟て！̡͢͡ ͡Hé̛͟l̸͢͝p͟͜.̧ ̧͠͡H͝e̴̡l̡̀̕ṕ̢. ͠H̕e̛l̛p̀.҉ ́͟助͘け̸て̢！̸̸͢ ̶͢助̨̛̀け҉͜て！ ̨͟H̶͜ę͠l̛͝p̨!̡ ̴̸̶H̨e̷lp͜.́̀
+                    ̵He͏l̢p̡͠!͝ ҉̸H͝ȩl̸̨p̸!̨́ ̷̨助け̵̶͝て̕！̷́ ̵̧̀助̵け̀͘て̨！͏͘͟ ̡͟͏助̨͡け̸̛て̛́҉！̴͢ ̛He̶lp̢͟͝.̸̕ ̛͜H̷̡̧e̷̢̕lp̛.͘͡
+                    助̸̨͡け̢́͘て！̨ H̸e̛lp̸̨̕.҉̵ H̷͜e̵lp.̀͢ ̧͏He͝lp͜.̴͜͡ ̡̧助け̵̨̛て！ ̀助̸けて̕！̵̷̕ Ḩ̸͡e̛l̢͡p̴̵̨!҉ ̛̕͝H̢e͏͢l̨p.̧͢
+                    ͞҉҉He͠lp!̷͞ ͘H̨́e͏̢l̢p!͟ ̨助けて！́͢ ̕͞助̕け̀̕て！ ́̀助̸̷け͏͡て̛！͞ ̨͢H҉e̶l͡͏҉p̀.̢ ̧̀́H̶ȩ͏͡ĺ̸p͏.̴̶͜ ̢̛͞助̷け͟て̛͞͞！̢̛
+                    H̢̨͞el̛p̷.҉ ̀͝͡Hél͘̕p͟͜.̴ ͢͠He̕͘͡l̨p̶.̵ ̢͜͢助̕͞け̛͜て̕！͢͞ ͡助͜け̧͡て̡̡！̢́͘ ̡̕H̡̡͝e̶lp͏!̛͡ ́͢H̡́é̡ļ̕p̶.͏
                     H͘e̷̸͡l̨p͝!̸ ̵He̕l̸p͏̨!̡ ̨͏助͠͠けて̵！̴̧ ̀͜助̡͜け͟͞͠て̸̨！͟ ͟͞助̡け͟て̀͝！̀ ͘He̢l̛p͞. ͠H͞͠e͏l͏̕҉p͏̧͜.̢͢ ͜助̶̷け̶̢て́！̧
                     ̸H̴͠éĺ҉p͝͏͏. ͏̢͘H҉͝e͝l̴p͜͜͞.̷́ ̵҉H̕͟͡é̴͟l̨͡p̛.͟ ́͢͟助̢け̕て̨！̕ ̢助̶̵̸けて̵͝！҉ H̡̕e̶lp!̢ ̶͡H̸ȩ̀l҉p҉̴̨.͞҉͞
                     ̵́He̶l҉͟p͡!̶͘ ̷H̴e̢l͜҉p̢̀!̶̕͝ ̢助̶̛͟け̀͢て͜͡！ ̀助͏け̶͜͞て̸！̶͢͠ ͢͞҉助͝け̷͝て̶！̷҉ ͏͠H̶̵͏e̡ĺ̛p̸̷͘.̸҉ ̴H҉éĺ̸̨p̵.̶͡
@@ -219,9 +161,14 @@
                 </p>
             </div>
         </div>
+
     </div>
 
-    <script id="e2ma-embed">window.e2ma=window.e2ma||{};e2ma.accountId='1746564';</script><script src="//dk98ddgl0znzm.cloudfront.net/e2ma.js" async="async"></script>
+    <script id="e2ma-embed">
+        window.e2ma = window.e2ma || {};
+        e2ma.accountId = '1746564';
+    </script>
+    <script src="//dk98ddgl0znzm.cloudfront.net/e2ma.js" async="async"></script>
 
 </body>
 
