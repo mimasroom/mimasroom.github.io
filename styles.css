@@ -83,7 +83,7 @@
         }
 
         .content p{
-            margin-left: 4rem;
+            margin-left: 0rem;
         }
 
         #pic01{
@@ -128,6 +128,9 @@
             }
             .nav a{
                 font-size: 3.5rem;
+            }
+            .content p{
+                margin-left: 4rem;
             }
             .content img{
                 width: auto;
